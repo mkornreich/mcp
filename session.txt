@@ -1,0 +1,315 @@
+(mcp-client) mk@mk-comp:~/things/jobs/oa/mcp/mcp-client$ python3 client.py server.py
+Processing request of type ListToolsRequest
+
+Connected to server with tools: ['get_jobs']
+
+MCP Client Started!
+Type your queries or 'quit' to exit.
+
+Query: get_jobs
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+HTTP Request: GET https://api.ashbyhq.com/posting-api/job-board/moonshot-ai?includeCompensation=true "HTTP/1.1 200 OK"
+
+[Calling tool get_jobs with args {}]
+# Moonshot AI - Current Job Openings
+
+I found **5 active positions** at Moonshot AI, all based in **New York City** with an office-first culture (4 days/week in Midtown Manhattan).
+
+---
+
+## 🔧 Engineering Roles
+
+### 1. **Staff Software Engineer**
+- **Salary:** $190K – $260K + Equity
+- **Experience:** 8+ years
+- **Key Focus:** Technical leadership, system architecture, AI/ML infrastructure
+- **Tech Stack:** Python, AWS, JavaScript, ClickHouse, Postgres, Kinesis
+- **Posted:** November 6, 2025
+- [**Apply Here**](https://jobs.ashbyhq.com/moonshot-ai/54aea9c8-267f-437a-b061-02f48cf48450/application)
+
+### 2. **Senior Software Engineer**
+- **Salary:** $150K – $210K + Equity
+- **Experience:** 5+ years fullstack
+- **Key Focus:** Building scalable AI-driven systems, LLM integration, data infrastructure
+- **Tech Stack:** Python, JavaScript, AWS
+- **Posted:** October 5, 2025
+- [**Apply Here**](https://jobs.ashbyhq.com/moonshot-ai/02441c7b-416b-4376-b90c-16e0a665d4e7/application)
+
+### 3. **Junior Software Engineer**
+- **Salary:** $90K – $150K + Equity
+- **Experience:** 0–3 years
+- **Key Focus:** Full-stack development, AI model integration, learning through impact
+- **Tech Stack:** Python, JavaScript, React, Node, Flask
+- **Posted:** October 5, 2025
+- [**Apply Here**](https://jobs.ashbyhq.com/moonshot-ai/6c2414d8-32c7-440b-aea0-b3dd285e795f/application)
+
+---
+
+## 📊 Customer Success
+
+### 4. **Conversion Rate Optimization (CRO) Strategist**
+- **Salary:** $90K – $120K
+- **Experience:** 2+ years
+- **Key Focus:** Leading CRO strategy for DTC e-commerce clients, A/B testing, experimentation
+- **Background:** Product management, UI/UX design, or data analysis
+- **Posted:** October 31, 2025
+- [**Apply Here**](https://jobs.ashbyhq.com/moonshot-ai/42f621ed-f003-4e36-bc99-023ad8288ebb/application)
+
+---
+
+## 📢 Marketing
+
+### 5. **Marketing Manager (Content, Brand & Events)**
+- **Salary:** $100K – $120K + Equity
+- **Experience:** 3–5 years
+- **Key Focus:** Content marketing, brand storytelling, event management, B2B SaaS marketing
+- **Posted:** November 14, 2025
+- [**Apply Here**](https://jobs.ashbyhq.com/moonshot-ai/b52c9560-4fbf-4e41-b6a9-c30f5a5f8e69/application)
+
+---
+
+## 🎯 About Moonshot AI
+
+**Mission:** Building AI-powered systems that automatically optimize and rebuild websites to improve conversions and revenue.
+
+**Stage:** Well-funded, early-stage startup backed by top investors from NYC, SF, and TLV
+
+**Benefits (All Roles):**
+- Competitive salary + meaningful equity
+- Full health coverage (medical, dental, vision) for you + family
+- Unlimited PTO
+- Office-first culture: 4 days/week in Midtown Manhattan
+- Direct access to founding team
+
+**Culture Values:**
+- Curiosity & Growth
+- Low Ego
+- Ownership
+- Trust & Transparency
+- Agility
+- Enjoy the Ride
+
+---
+
+Would you like more details about any specific role, or help preparing an application?
+
+Query: create a cover letter for the software engineer role
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+HTTP Request: GET https://api.ashbyhq.com/posting-api/job-board/moonshot-ai?includeCompensation=true "HTTP/1.1 200 OK"
+
+I'll help you create a cover letter for a software engineer role. Let me first check what job opportunities are available.
+[Calling tool get_jobs with args {}]
+# Cover Letter - Software Engineer at Moonshot AI
+
+[Your Name]
+[Your Email]
+[Your Phone]
+[Date]
+
+Hiring Team
+Moonshot AI
+Midtown Manhattan, New York City
+
+Dear Moonshot AI Team,
+
+I'm writing to express my strong interest in joining Moonshot AI as a Software Engineer. The vision of building websites that rebuild themselves on autopilot through generative AI isn't just compelling—it's the kind of technically ambitious, impact-driven work that defines the next generation of the web. I'm excited by the opportunity to be part of the team setting the technical and cultural DNA of this journey.
+
+**Why I'm drawn to Moonshot AI:**
+
+Your mission resonates deeply with me because it sits at the intersection of three areas I'm passionate about: scalable systems architecture, AI-driven automation, and rapid experimentation. The opportunity to work on systems processing tens of millions of web events daily while integrating LLMs into production represents exactly the kind of challenging, high-impact work I thrive on.
+
+What excites me most is the early-stage nature of Moonshot. I've always believed the best time to join a startup is when you can still shape the architecture, influence the culture, and see direct lines between your code and business outcomes. The autonomy you're offering—combined with backing from top-tier investors—is rare and valuable.
+
+**What I bring to the table:**
+
+I have [X years] of fullstack engineering experience building scalable production systems with [Python/JavaScript/AWS or relevant technologies]. My background includes:
+
+- **Scalable system design**: [Brief example of architecting systems that handle significant scale/data]
+- **Hands-on AI/ML experience**: [Example of working with LLMs, ML models, or AI-driven features]
+- **Startup velocity**: [Example demonstrating ability to ship fast, iterate, and own outcomes in a fast-paced environment]
+- **Cross-stack ownership**: [Example showing comfort moving between backend APIs, frontend dashboards, and infrastructure]
+
+I'm particularly drawn to [choose based on your level]:
+- **Senior role**: The opportunity to architect large-scale data infrastructure, integrate LLMs into production, and shape engineering culture from the ground up
+- **Junior role**: The chance to learn from senior engineers while shipping real production code from day one and contributing to systems that impact millions of users
+
+**Alignment with Moonshot's culture:**
+
+Your cultural values aren't just words on a page—they mirror how I approach my work:
+- **Ownership**: I believe in owning outcomes, not just code. I measure success by impact, not pull requests.
+- **Curiosity & Growth**: I'm constantly pushing to understand systems more deeply and asking "why" and "what if."
+- **Low Ego**: The best ideas win, regardless of who suggests them. I value collaboration and feedback.
+- **Agility**: I've thrived in environments that move fast, test faster, and aren't afraid to pivot when data points in a new direction.
+
+**Why now:**
+
+I'm at a point in my career where I want to maximize impact and learning velocity. Working directly with founders, having meaningful equity, and building something from near-zero is exactly where I want to be. The office-first culture in Midtown Manhattan is a bonus—I believe the best work happens when teams can collaborate in person.
+
+I'd love to discuss how my experience with [specific relevant technologies or domains] could contribute to Moonshot's vision of building an AI engine that redefines how digital products are created. I'm ready to get my hands dirty, ship fast, and help build something that matters.
+
+Thank you for considering my application. I'm excited about the possibility of joining the Moonshot team and contributing to this ambitious vision.
+
+Best regards,
+
+[Your Name]
+
+---
+
+(mcp-client) mk@mk-comp:~/things/jobs/oa/mcp/mcp-client$ python3 client.py server.py
+Processing request of type ListToolsRequest
+
+Connected to server with tools: ['get_jobs']
+
+MCP Client Started!
+Type your queries or 'quit' to exit.
+
+Query: get_jobs
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+HTTP Request: GET https://api.ashbyhq.com/posting-api/job-board/moonshot-ai?includeCompensation=true "HTTP/1.1 200 OK"
+
+[Calling tool get_jobs with args {}]
+# Moonshot AI - Open Positions
+
+I found **5 open positions** at Moonshot AI, all based in **New York City** with an office-first culture (4 days/week in Midtown Manhattan).
+
+---
+
+## 🚀 **Engineering Roles**
+
+### 1. **Staff Software Engineer**
+- **Salary:** $190K – $260K + Equity
+- **Experience:** 8+ years
+- **Key Focus:**
+  - Technical leadership (non-management)
+  - Architect scalable systems for AI-driven experimentation
+  - Backend infrastructure (Python, AWS, ClickHouse, Postgres)
+  - Mentor senior/mid-level engineers
+  - Build generative AI and agentic flows
+- **Apply:** [Staff Software Engineer](https://jobs.ashbyhq.com/moonshot-ai/54aea9c8-267f-437a-b061-02f48cf48450/application)
+
+---
+
+### 2. **Senior Software Engineer**
+- **Salary:** $150K – $210K + Equity
+- **Experience:** 5+ years fullstack
+- **Key Focus:**
+  - Build scalable systems processing millions of web events daily
+  - Design large-scale data infrastructure
+  - Train and integrate LLMs into production
+  - Shape engineering culture & practices
+  - Python, JS, AWS preferred
+- **Apply:** [Senior Software Engineer](https://jobs.ashbyhq.com/moonshot-ai/02441c7b-416b-4376-b90c-16e0a665d4e7/application)
+
+---
+
+### 3. **Junior Software Engineer**
+- **Salary:** $90K – $150K + Equity
+- **Experience:** 0-3 years
+- **Key Focus:**
+  - Build features across frontend dashboards and backend APIs
+  - Work with massive data streams
+  - Help train and integrate AI models
+  - Learn through impact - real production code from day one
+  - Python, JavaScript, modern frameworks (React, Node, Flask)
+- **Apply:** [Junior Software Engineer](https://jobs.ashbyhq.com/moonshot-ai/6c2414d8-32c7-440b-aea0-b3dd285e795f/application)
+
+---
+
+## 📊 **Customer Success Role**
+
+### 4. **Conversion Rate Optimization (CRO) Strategist**
+- **Salary:** $90K – $120K
+- **Experience:** 2+ years
+- **Key Focus:**
+  - Lead CRO strategy for DTC e-commerce clients
+  - Design and implement A/B and multivariate testing programs
+  - Establish KPIs and testing roadmaps
+  - Strong analytical skills and e-commerce best practices
+  - Background as product manager, UI/UX designer, or data analyst preferred
+- **Apply:** [CRO Strategist](https://jobs.ashbyhq.com/moonshot-ai/42f621ed-f003-4e36-bc99-023ad8288ebb/application)
+
+---
+
+## 📣 **Marketing Role**
+
+### 5. **Marketing Manager (Content, Brand & Events)**
+- **Salary:** $100K – $120K + Equity
+- **Experience:** 3-5 years in fast-growing startup
+- **Key Focus:**
+  - Shape how the world sees Moonshot AI
+  - Create compelling content across email, social, video
+  - Lead presence at conferences and events
+  - Brand storytelling and campaign execution
+  - Work with product, sales, and customer success teams
+- **Apply:** [Marketing Manager](https://jobs.ashbyhq.com/moonshot-ai/b52c9560-4fbf-4e41-b6a9-c30f5a5f8e69/application)
+
+---
+
+## 💡 **About Moonshot AI**
+
+Moonshot AI is building a platform where **websites rebuild themselves on autopilot** using generative AI, large-scale data pipelines, and experimentation. They're a well-funded, early-stage startup backed by top investors in NYC, SF, and TLV.
+
+**Benefits (All Roles):**
+- Competitive salary + meaningful equity
+- Full health coverage (medical, dental, vision) for you + family
+
+Query: write a cover letter for the software engineer role
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+HTTP Request: GET https://api.ashbyhq.com/posting-api/job-board/moonshot-ai?includeCompensation=true "HTTP/1.1 200 OK"
+
+I'd be happy to help you write a cover letter for a software engineer role! Let me first check what job opportunities are available.
+[Calling tool get_jobs with args {}]
+# Cover Letter – Senior Software Engineer Position at Moonshot AI
+
+Dear Hiring Team,
+
+I'm writing to express my strong interest in the Senior Software Engineer position at Moonshot AI. The opportunity to help build an AI engine that autonomously optimizes and evolves websites represents exactly the kind of ambitious, technically challenging work I've been seeking—and the chance to shape the technical DNA of an early-stage startup is precisely where I thrive.
+
+## Why I'm Excited About Moonshot
+
+The vision of self-evolving websites powered by generative AI isn't just compelling—it's the natural next step in how digital products should be built. What excites me most is the technical challenge at the intersection of large-scale data infrastructure, LLM integration, and real-time experimentation. Processing tens of millions of web events daily while training models to hypothesize and validate changes autonomously is exactly the kind of complex, high-impact problem I want to solve.
+
+## What I Bring
+
+With 5+ years of fullstack experience, I've built and scaled systems that handle massive user loads while maintaining clean, maintainable code. My background includes:
+
+- **Fullstack Architecture**: Deep experience with Python and JavaScript, building everything from backend APIs to responsive frontend interfaces that users love
+- **Scalable Systems Design**: Proven track record architecting systems for high throughput and reliability, with hands-on AWS experience
+- **Technical Leadership**: Experience driving major projects from concept to production, mentoring team members, and establishing engineering best practices
+- **AI Enthusiasm**: Active interest in LLMs and their real-world applications—I've been experimenting with integrating AI into production systems and understand both the potential and the pitfalls
+
+## Why I'm the Right Fit
+
+Beyond the technical skills, I align strongly with Moonshot's culture:
+
+- **Ownership**: I take responsibility for outcomes, not just code. Shipping is the beginning; impact is what matters.
+- **Low Ego**: I believe the best ideas come from collaboration and am always happy to roll up my sleeves
+- **Agility**: I thrive in fast-paced environments where rapid iteration and experimentation are valued
+- **Curiosity**: I'm constantly learning and pushing myself to master new technologies and approaches
+
+The prospect of working directly with your founding team in Midtown Manhattan, having immediate and visible impact, and holding meaningful equity in Moonshot's success is incredibly motivating. I'm looking for exactly this: the autonomy of a founder-level role with the backing and resources to build something truly transformative.
+
+## What I'll Contribute
+
+From day one, I'll bring:
+- Clean, scalable code across the full stack
+- Systems thinking for architecting data infrastructure that explains and optimizes web performance
+- Hands-on experience integrating AI/ML models into production environments
+- A bias toward action—prototyping quickly while maintaining quality
+- Collaborative energy to help shape your engineering culture and technical direction
+
+I'm excited about the opportunity to help Moonshot redefine how digital products are created. This isn't about maintaining another SaaS app—it's about building something fundamentally new, and I want to be part of that founding engineering team.
+
+I'd love to discuss how my experience and passion for building AI-driven systems align with Moonshot's mission. Thank you for considering my application.
+
+Best regards,
+
+[Your Name]
+
+---
+
+*P.S. I'm particularly intrigued by how you're combining experimentation frameworks with LLM-driven hypothesis generation. I'd love to discuss the technical architecture you're envisioning for the experiment engine during our conversation.*
